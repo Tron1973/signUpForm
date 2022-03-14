@@ -39,17 +39,41 @@
                 <p>
                     Let's do this!
                 </p>
-                <form>
-                    FIRST NAME <input type="text" name="first-name" />
-                    LAST NAME: <input type="text" name="last-name" />
-                    EMAIL: <input type="email" name="email" />
-                    PHONE NUMBER: <input type="tel" name="phone" />
-                    PASSWORD: <input type="password" />
-                    CONFIRM PASSWORD: <input type="password" />
+                <form class="signup-form">
+                    <div class="left-input">
+                    <div class="input-group">
+                        <label>FIRST NAME</label>
+                        <input type="text">
+                    </div>
+                    <div class="input-group">
+                        <label>EMAIL</label>
+                        <input type="email">
+                    </div>
+                    <div class="input-group">
+                        <label>PASSWORD</label>
+                        <input type="password">
+                    </div>
+                    </div>
+                    <div class="right-input">
+                    <div class="input-group">
+                        <label>LAST NAME</label>
+                        <input type="text">
+                    </div>
+                    <div class="input-group">
+                        <label>PHONE NUMBER</label>
+                        <input type="tel">
+                    </div>
+                    <div class="input-group error">
+                        <label>CONFIRM PASSWORD</label>
+                        <input type="password">
+                    </div>
+                    </div>
                 </form>
             </section>
             <section class="bottom">
-                <button>Create Account</button>
+                <div class="input-group">
+                    <button type="submit" class="btn">Create Account</button>
+                </div>
                 <p>
                     Already have an account? <a href="#">Log In</a>
                 </p>
